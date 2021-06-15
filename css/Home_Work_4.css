@@ -1,0 +1,48 @@
+.lorem{
+  font-size: 20px;
+  line-height: 25px;
+  text-indent: 40px;
+  letter-spacing: 1px;
+  font-family: 'Oswald', 'Arial', sans-serif;
+  word-spacing: 5px;
+  box-shadow: 0px 60px 18px -16px rgba(0, 40, 247, 0.2) inset;
+}
+.bg-box{
+  width: 700px;
+  height: 500px;
+  background-color: green;
+  background: url('../images/pole-zelen-trava-dom-derevya.jpg') 50% 50%/65% no-repeat, url('../images/lamp-png-0.png')0% 0%/7% repeat-x, url('../images/Ёжик.png')0% 0%/10% repeat-y, url('../images/58eb07b830eab15b56162788.png')100% 100%/10% repeat-y, green url('../images/grass-png-images-pictures-transparent-28.png')0% 100%/25% repeat-x;
+}
+ul li, .green {
+  list-style: none;
+  font-size: 18px;
+}
+.green{
+  color: green;
+}
+ul li:nth-child(2n){
+  font-size: 20px;
+}
+ul li:nth-child(3n+1){
+  background-color: Yellow;
+}
+a{
+  text-decoration-line: none;
+}
+a:hover{
+  color: red;
+  background: linear-gradient(90deg, rgba(17,6,194,1) 0%, rgba(2,176,16,0.4797269249496674) 53%, rgba(0,212,255,1) 100%);
+}
+li::before{
+  content: "-"
+}
+div[class^='box']{
+       width: 100px;
+       height: 100px;
+}
+.box3{
+  background: radial-gradient(circle, rgba(176,2,2,1) 20%, rgba(0,0,0,1) 20%);
+}
+.box2{
+  background: linear-gradient(135deg, rgba(0,0,0,1) 20%,rgba(124,124,124,1) 20%,rgba(124,124,124,1) 80%,rgba(124,124,124,1) 80%,rgba(0,0,0,1) 81%);
+}
