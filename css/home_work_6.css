@@ -1,0 +1,103 @@
+
+.blok_1{
+position: relative;
+background-color: red;
+width: 150px;
+height: 150px;
+margin-bottom: 300px;
+}
+.blok_2{
+position: absolute;
+top: 66%;
+left: 66%;
+background-color: SteelBlue;
+width: 150px;
+height: 150px;
+z-index: 3;
+}
+.blok_3{
+position: absolute;
+top: 133%;
+left: 133%;
+background-color: green;
+width: 150px;
+height: 150px;
+}
+h1{
+  position: fixed;
+  top: 50px;
+  right: 50px;
+}
+h2{
+  position: relative;
+  left: -20px;
+  bottom: -30px;
+}
+h3{
+  position: absolute;
+  left: 50px;
+  top: 100px;
+  z-index: 4;
+}
+.cite::before{
+  content: ' \275D';
+}
+.cite::after{
+  content: ' \275E'
+}
+blockquote{
+  font-size: 25px;
+  color: White;
+  text-align: center;
+  margin: 0;
+}
+.cite{
+  margin: 0;
+  font-weight: 600;
+}
+.blok_4{
+  width: 500px;
+  height: 500px;
+  background: #0d5825;
+  position: relative;
+  padding: 30px 0 0 0;
+}
+img{
+  width: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+}
+.center{
+  transform: translate(-50%,0) rotate(-8deg);
+  z-index: 2;
+  transition-duration: 2s;
+
+}
+.left{
+  transform: translate(-80%,-2%) rotate(-20deg);
+  z-index: 1;
+  transition-duration: 2s;
+
+}
+.right{
+  transform: translate(-16%,8%) rotate(10deg);
+  z-index: 3;
+  transition-duration: 2s;
+
+}
+.center:hover{
+  transform: translate(-50%,-8%) rotate(-8deg);
+  transition-duration: 2s;
+}
+.left:hover{
+  transform: translate(-80%,-10%) rotate(-20deg);
+  transition-duration: 2s;
+
+}
+.right:hover{
+  transform: translate(-16%,0%) rotate(10deg);
+  transition-duration: 2s;
+
+}
