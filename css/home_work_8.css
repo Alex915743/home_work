@@ -122,7 +122,6 @@ textarea{
   top: 1px;
   right: 361px;
   z-index: 1;
-  transition: 0.3s;
 }
 .swich2{
   position: absolute;
@@ -161,7 +160,6 @@ textarea{
     top: 1px;
     right: 361px;
     z-index: 1;
-    transition: 0.3s;
   }
   .swich3{
     position: absolute;
@@ -172,5 +170,4 @@ textarea{
   .swich3:checked + .swich_for3::before{
     content: "\2713";
     z-index: 1;
-    transition: 0.3s;
 }
