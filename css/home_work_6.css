@@ -73,7 +73,6 @@ img{
   transform: translate(-50%,0) rotate(-8deg);
   z-index: 2;
   transition-duration: 2s;
-
 }
 .left{
   transform: translate(-80%,-2%) rotate(-20deg);
@@ -96,8 +95,7 @@ img{
   transition-duration: 2s;
 
 }
-.right:hover{
+ .right:hover{
   transform: translate(-16%,0%) rotate(10deg);
   transition-duration: 2s;
-
 }
