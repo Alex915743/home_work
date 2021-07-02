@@ -1,0 +1,215 @@
+*{
+  box-sizing: border-box;
+}
+header{
+  padding: 15px 20px;
+}
+.header{
+  font-size: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Bebas Neue', 'Arial', cursive;
+  border-bottom: 4px solid ForestGreen;
+}
+.header__link{
+  color: SteelBlue;
+  text-decoration: none;
+
+}
+.header__link:hover{
+  color: ForestGreen;
+}
+
+.header__img{
+  background: url('../images/logo.png') 50% 50%/100px 100px no-repeat;
+  width: 100px;
+  height: 100px;
+
+}
+.header__item{
+list-style-type: none;
+display: inline-block;
+margin-left: 20px;
+}
+/* -------------------- */
+main{
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0 30px 0;
+
+}
+.main__img{
+  background: url('../images/grid-image-1.jpg') 50% 50%/100% no-repeat;
+  min-width: 550px;
+  min-height: 300px;
+}
+.main__desc{
+  min-width: 774px;
+  height: 300px;
+  box-shadow: 3px 4px 14px 8px rgb(34 60 80 / 20%);
+  background-color: White;
+  margin-left: -50px;
+  margin-top: 95px;
+  background-color: #f6fcff;
+  padding: 40px 141px;
+  }
+.main__title{
+  margin: 0;
+  font-family: 'Oswald','Arial', sans-serif;
+  color: SteelBlue;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+.main__subtitle{
+  font-family: 'Oswald','Arial', sans-serif;
+  color: SteelBlue;
+  font-size: 24px;
+  line-height: 30px;
+}
+.main__text{
+  font-family: 'Dosis', 'Arial', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #6d6d6d;
+}
+.main__btn{
+  font-family: 'Oswald', 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: white;
+  background-color: #97b621;
+  border-radius: 25px;
+  border: 2px solid #97b621;
+  min-width: 140px;
+  min-height: 35px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+/* --------------------- */
+.main--left{
+  margin-top: -80px;
+}
+.main__desc--left{
+margin-right: -102px;
+position: relative;
+right: 47px;
+z-index: 2;
+}
+.main__img--left{
+  background: url('../images/grid-image-2.jpg') 50% 50%/100% no-repeat;
+  margin-right: -100px;
+}
+/* ------------------ */
+.main__pic{
+  background: url('../images/grid-image-3.jpg') 50% 50%/100% no-repeat;
+}
+.main__btn--button{
+  background-color: white;
+  color: #97b621;
+}
+.main__btn--button::before{
+  content: '\25B6';
+}
+/* ------------------- */
+footer{
+  margin: 0px 20px;
+
+  background-color: rgba(151, 182, 33, 0.1);
+
+}
+.footer__wrap{
+  padding: 15px 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer__wrap__box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 23%;
+
+}
+.footer__wrap__img{
+  background: url('../images/grid-image-5.jpg') 50% 50%/100% no-repeat;
+  width: 174px;
+  height: 267px;
+  position: relative;
+}
+.footer__wrap__text{
+  font-family: 'Oswald','Arial', sans-serif;
+  color: SteelBlue;
+  font-size: 24px;
+  line-height: 30px;
+}
+.button{
+  font-family: 'Dosis', 'Arial', sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 22px;
+  color: white;
+  background-color: #97b621;
+  border-radius: 25px;
+  border: 2px solid #97b621;
+  min-width: 140px;
+  min-height: 35px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+/* ----------------- */
+.footer__wrap__img--2{
+  background: url('../images/grid-image-4.jpg') 50% 50%/100% no-repeat;
+}
+.footer__wrap__img--3{
+  background: url('../images/grid-image-6.jpg') 50% 50%/100% no-repeat;
+}
+.footer__wrap__img--4{
+  background: url('../images/grid-image-7.jpg') 50% 50%/100% no-repeat;
+}
+/* ---------------- */
+.footer__wrap__img__hover::before{
+  content: '';
+  position: absolute;
+  top: 46px;
+  left: 0;
+  background-color: rgba(21,51,68,0.6);
+  width: 174px;
+  height: 175px;
+  opacity: 0;
+  transition:0.3s;
+}
+.footer__wrap__img__hover:hover::before{
+  opacity: 1;
+}
+
+.footer__wrap__img__iner{
+  position: absolute;
+  top: 80px ;
+  left: 0;
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+  font-family: 'Dosis', 'Arial', sans-serif;
+  text-align: center;
+  /* overflow: hidden; */
+}
+.footer__wrap__img__iner > span{
+  display: block;
+  opacity: 0;
+  transform: translateY(-87px);
+  transition: transform 0.4s ease;
+}
+.footer__wrap__img:hover .footer__wrap__img__iner > span{
+  opacity: 1;
+  transform: translateY(0);
+}
+/* -------------- */
+/* 25B6 */

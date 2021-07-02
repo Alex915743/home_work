@@ -1,11 +1,11 @@
 
  .wraper_0{
-  max-height: 1500px;
+  max-height: 2000px;
 }
 .wraper{
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 2000px;
 }
 header{
   margin: 0;
@@ -55,13 +55,15 @@ li{
 .left{
   order: 1;
   font-weight: 600;
-  flex-basis: 210px;
+  max-width: 210px;
+  width: 100%;
   background-color: LightPink;
 }
 .right{
   order: 3;
   font-weight: 600;
-  flex-basis: 210px;
+  max-width: 210px;
+  width: 100%;
   background-color: LightSkyBlue;
 }
 .center{
@@ -72,7 +74,7 @@ h1{
   text-transform: uppercase;
 }
 .wraper_card_0{
-  height: 900px;
+  height: 1100px;
 }
 .wraper_card_1{
   display: flex;
